@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'booking-admin';
+  isLine = false;
+  constructor(){
+    this.isLine = false;
+  }
+  createLine(){
+    this.isLine = true;
+  }
 }
